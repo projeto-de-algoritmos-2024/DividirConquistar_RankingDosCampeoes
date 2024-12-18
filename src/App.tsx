@@ -1,25 +1,18 @@
 import React from 'react';
 import './App.css';
+import Home from './pages/Home.tsx';
+import Jogando from './pages/Jogando.tsx';
+import { Routes, Route, Link } from 'react-router-dom';
+import Parabens from './pages/Parabens.tsx';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/jogo/:year" element={<Jogando />} />
+        <Route path="/parabens" element={<Parabens />} />
+      </Routes>
     </div>
   );
 }
-
-export default App;
