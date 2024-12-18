@@ -22,7 +22,34 @@ Este projeto propõe um jogo interativo que desafia o usuário a organizar a tab
 
 ## Uso 
 
-- Acesse o [LeetCode](https://leetcode.com/).
-- Procure pelo problema ou busque pelo ID da questão que será testada.
-- Cole o código na área de solução fornecida.
-- Clique em "Run Code" para testar com casos de exemplo ou "Submit" para enviar a solução.
+Certifique-se de ter as seguintes ferramentas instaladas na sua máquina:
+
+- Node.js (versão 16 ou superior recomendada)
+- npm 
+
+1. Clone o Repositório
+
+```
+git clone https://github.com/projeto-de-algoritmos-2024/DividirConquistar_RankingDosCampeoes
+```
+
+2. Acesse o Diretório do Projeto
+
+```
+cd DividirConquistar_RankingDosCampeoes
+```
+
+3. Instale as Dependências
+
+```
+npm install --legacy-peer-deps
+```
+
+4. Inicie o Servidor de Desenvolvimento
+
+```
+npm start
+```
+
+O projeto estará disponível no navegador no endereço: http://localhost:3000.
+
