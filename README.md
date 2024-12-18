@@ -16,7 +16,9 @@ Este projeto propõe um jogo interativo que desafia o usuário a organizar a tab
 
 ## Screenshots
 
-
+![alt text](home.png)
+![alt text](jogando.png)
+![alt text](parabens.png)
 
 ## Uso 
 
