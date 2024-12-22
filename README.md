@@ -1,5 +1,5 @@
 
-# Dividir e Conquistar: Leetcode Problems
+# Dividir e Conquistar
 
 **Número da Lista**: 03<br>
 **Conteúdo da Disciplina**: Dividir e Conquistar<br>
